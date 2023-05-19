@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(124, 167, 167);
+  display: flex;
+  padding-top: 4rem;
+  justify-content: center;
+
+}
+.app{
+  height: 300px;
+  width: 500px;
+  color: white;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 3px 9px 23px 5px rgba(0, 0, 0, 0.75);
+  background-color: rgb(59, 59, 95);
+  display: flex;
+  flex-direction: row;
+  
+}
+span{
+  font-size: 40px;
+}
+.question-count{
+  font-size: 25px;
+}
+.question-text{
+  font-size: 25px;
+  margin-top: 15px;
+}
+.answer-section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 3rem;
+}
+button{
+  width: 13rem;
+  height: 3rem;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid lightblue;
+  border-radius: 13px;
+  font-size: 18px;
+}
+button:hover{
+  background-color: rgb(145, 152, 238);
+}
+.score-action{
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+
+}
